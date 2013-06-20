@@ -1,6 +1,7 @@
-# Output folder #
+# Folder #
 ######################
 output/
+tmp/
 
 # Logs #
 ######################
