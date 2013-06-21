@@ -13,10 +13,14 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+require 'compass'
+
+Compass.add_project_configuration 'compass.rb'
+
 # COMPILE
 
-compile '/stylesheet/' do
-  # don’t filter or layout
+compile '/assets/stylesheets/*' do
+  filter :sass, Compass.sass_engine_options.merge(:syntax => item[:extension].to_sym)
 end
 
 compile '/posts/*' do
@@ -35,8 +39,17 @@ end
 
 # ROUTE
 
-route '/stylesheet/' do
-  '/style.css'
+route '/assets/images/*' do
+  #ignore images for now
+end
+
+route '/assets/javascript/*' do
+  #ignore javascript for now
+end
+
+route '/assets/stylesheets/*' do
+  # flatten assets to assets/ similar to rails
+  '/assets/' + File.basename(item.identifier) + '.css'
 end
 
 route '/posts/*' do
