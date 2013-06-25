@@ -50,16 +50,16 @@
 		},
 
 		"disqus": {
-			"shortname": "my-name"	
+			"shortname": "hpoomblog"	
 		},
 
 		"tweet_button": {
-			"via": "myname"
+			"via": "hpoom"
 		}
 	},
 
 	"sitemap_generator": {
-		"url_root": "http://www.myblog.com"	
+		"url_root": "http://www.hpoom.co.uk"	
 	},
 
 	"publish" : {
