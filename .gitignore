@@ -1,6 +1,15 @@
+# OS X files #
+######################
+.DS_Store
+thumbs.db
+
+# Node modules #
+######################
+node_modules/
+
 # Output folder #
 ######################
-public/
+out/
 
 # Logs #
 ######################

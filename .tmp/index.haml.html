@@ -1,0 +1,9 @@
+{% extends '.././src/layout/home.html' %}
+
+{% block title %}{{ doc.title }} | {% parent %}{% endblock %}
+
+{% block content %}
+
+	<h1 class="content-subhead">Pinned Post</h1><section class="post"><header class="post-header"><h2 class="post-title"><a href="/posts/welcome.html">Introducing Go-Static!</a></h2><p class="post-meta">By  <a href="#" class="post-author">Colyn Brown</a> under  <a href="#" class="post-tag">blog</a>  <a href="#" class="post-tag">post</a>  <a href="#" class="post-tag">welcome</a>  <a href="#" class="post-tag">go-static</a> </p><div class="post-description"><p>Go-Static! is a static site generator that employs the tools developers already know and love.</p></div></header></section><h1 class="content-subhead">Recent Posts</h1><section class="post"><header class="post-header"><h2 class="post-title"><a href="/posts/create-new-page.html">How To Create a New Page</a></h2><p class="post-meta">By  <a href="#" class="post-author">Colyn Brown</a> under  <a href="#" class="post-tag">blog</a>  <a href="#" class="post-tag">page</a>  <a href="#" class="post-tag">create</a>  <a href="#" class="post-tag">go-static</a> </p><div class="post-description"><p>Go-Static! isn't just for blog posts, you can create pages too!</p></div></header></section><section class="post"><header class="post-header"><h2 class="post-title"><a href="/posts/create-new-post.html">How To Create a New Post</a></h2><p class="post-meta">By  <a href="#" class="post-author">Colyn Brown</a> under  <a href="#" class="post-tag">blog</a>  <a href="#" class="post-tag">post</a>  <a href="#" class="post-tag">create</a>  <a href="#" class="post-tag">go-static</a> </p><div class="post-description"><p>Go-Static! makes it really simple to create new posts.</p></div></header></section>
+
+{% endblock %}
