@@ -4,7 +4,7 @@
     width: 120px;
     height: 120px;
     margin: 0 auto;  
-    border-radius: 20px;
+    border-radius: 60px;
   }
 </style>
 
@@ -12,22 +12,14 @@
 <hgroup>
     <div class="my-awesome-mugshot"></div>
     <h1 class="brand-title">{{ site.title }}</h1>
-    <h2 class="brand-tagline">{{ site.description }}</h2>
+    <h3 class="brand-tagline">{{ site.description }}</h3>
 </hgroup>
-
-<nav class="nav">
-    <ul class="nav-list">
-        {% for page in pages %}
-        <li class="nav-item">
-            <a class="pure-button" href="{{ page.get('path') }}">{{ page.get('title') }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</nav>
 
 <div class="social-menu social-menu-horizontal">
     <ul>
-        <li><a href="#"><div class="social-icons twitter"></div></a></li>
-        <li><a href="#"><div class="social-icons github"></div></a></li>
+        <li><a href="https://twitter.com/hpoom"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="http://www.linkedin.com/in/simonejwood"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="http://github.com/hpoom/"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://foursquare.com/hpoom"><i class="fa fa-foursquare"></i></a></li>
     </ul>
 </div>

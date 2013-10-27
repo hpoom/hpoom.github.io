@@ -13,7 +13,7 @@ var   YAML = require('yamljs')
 var goStaticConfig = {
   site: {
     title: 'hpoom',
-    description: 'description (to-change)',
+    description: 'Passionate geek with a love of Javascript, APIs, and Cloud. I am Head of Technology & Innovation at the Shortbreaks & New Ventures division of Holiday Extras.',
     keywords: '',
     author: {
       name: 'Simon Wood',

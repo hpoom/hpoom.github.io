@@ -26,7 +26,7 @@ a:focus {
     bottom: 0;
     width: 100%;
     margin: 0;
-    background: #dcddab;
+    background: #333;
     color: #fff;
     position: relative;
 }
@@ -40,14 +40,17 @@ a:focus {
 
 .brand-title,
 .brand-tagline {
-    margin: 0;
-}
-.brand-title {
-    text-transform: uppercase;
-}
-.brand-tagline {
+    margin: 0 auto;
     font-weight: 300;
-    color: #666;
+    max-width: 520px
+}
+
+.brand-title {
+    color: #fff;
+}
+
+.brand-tagline {
+    color: #aaa;
 }
 
 .nav-list {
@@ -153,22 +156,9 @@ a:focus {
 
 .social-menu-horizontal ul li {
 	display: inline-block;
+    font-size: 2em;
+    padding: 0px 5px;
 }
-
-.social-icons {
-	background: url(/img/social-icons.png);
-	width: 35px;
-	height: 35px;
-}
-
-.social-icons.twitter {
-	background-position: 0 0;
-}
-
-.social-icons.github {
-	background-position: -137px 0;
-}
-
 
 .copyright {
     border-top: solid 1px #eee;
