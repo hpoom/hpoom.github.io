@@ -1,183 +1,183 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: #428bca;
+  text-decoration: none;
+  color: #428bca;
 }
 a:hover,
 a:focus {
-    text-decoration: underline;
-    color: #2a6496;
+  text-decoration: underline;
+  color: #2a6496;
 }
 
 /* LAYOUT CSS */
 #layout {
-    padding: 0;
-    position: relative;
+  padding: 0;
+  position: relative;
 }
 
 .sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    background: #333;
-    color: #fff;
-    position: relative;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  background: #333;
+  color: #fff;
+  position: relative;
 }
 
 .header {
-    text-align: center;
-    top: auto;
-    margin: 3em auto;
-    position: static;
+  text-align: center;
+  top: auto;
+  margin: 3em auto;
+  position: static;
 }
 
 .brand-title,
 .brand-tagline {
-    margin: 0 auto;
-    font-weight: 300;
-    max-width: 520px
+  margin: 0 auto;
+  font-weight: 300;
+  max-width: 520px
 }
 
 .brand-title {
-    color: #fff;
+  color: #fff;
 }
 
 .brand-tagline {
-    color: #aaa;
+  color: #aaa;
 }
 
 .nav-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .nav-item {
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
 }
 .nav-item a {
-    background: transparent;
-    border: 3px solid #aaa;
-    color: #fff;
-    margin-top: 1em;
+  background: transparent;
+  border: 3px solid #aaa;
+  color: #fff;
+  margin-top: 1em;
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border: 3px solid #aaa;
-    color: #000;
-    text-decoration: none;
+  border: 3px solid #aaa;
+  color: #000;
+  text-decoration: none;
 }
 
 .content-subhead {
-    text-transform: uppercase;
-    color: #aaa;
-    border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
-    font-size: 80%;
-    font-weight: 500;
-    letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #aaa;
+  border-bottom: 1px solid #eee;
+  padding: 0.4em 0;
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 0.1em;
 }
 
 .content {
-    padding: 2em 3em 0;
+  padding: 2em 3em 0;
 }
 
 .post {
-    padding-bottom: 2em;
+  padding-bottom: 2em;
 }
 .post-title {
-    font-size: 2em;
-    color: #222;
-    margin-bottom: 0.2em;
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 0.2em;
 }
 .post-avatar {
-    border-radius: 50px;
-    float: right;
-    margin-left: 1em;
+  border-radius: 50px;
+  float: right;
+  margin-left: 1em;
 }
 .post-description {
-    font-family: Georgia, "Cambria", serif;
-    color: #444;
-    line-height: 1.8em;
+  font-family: Georgia, "Cambria", serif;
+  color: #444;
+  line-height: 1.8em;
 }
 .post-meta {
-    color: #999;
-    font-size: 90%;
-    margin: 0;
+  color: #999;
+  font-size: 90%;
+  margin: 0;
 }
 
 .post-tag {
-    margin: 0 0.1em;
-    padding: 0.3em 1em;
-    color: #fff;
-    background: #999;
-    font-size: 80%;
+  margin: 0 0.1em;
+  padding: 0.3em 1em;
+  color: #fff;
+  background: #999;
+  font-size: 80%;
 }
 
 .post-images {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 .post-image-meta {
-    margin-top: -3.5em;
-    margin-left: 1em;
-    color: #fff;
-    text-shadow: 0 1px 1px #333;
+  margin-top: -3.5em;
+  margin-left: 1em;
+  color: #fff;
+  text-shadow: 0 1px 1px #333;
 }
 
 .footer {
-    text-align: center;
-    padding: 1em 0;
+  text-align: center;
+  padding: 1em 0;
 }
 .footer a {
-    color: #ccc;
-    font-size: 80%;
+  color: #ccc;
+  font-size: 80%;
 }
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
-    background: none;
+  background: none;
 }
 
 /**
- * Social Icons
- */
+* Social Icons
+*/
 .social-menu-horizontal ul {
-	list-style: none;
-    padding: 0px;
-    float: none;
+  list-style: none;
+  padding: 0px;
+  float: none;
 }
 
 .social-menu-horizontal ul li {
-	display: inline-block;
-    font-size: 2em;
-    padding: 0px 5px;
+  display: inline-block;
+  font-size: 2em;
+  padding: 0px 5px;
 }
 
 .copyright {
-    border-top: solid 1px #eee;
-    padding: 10px 0 0 0;
-    margin: 25px 0 0 0;
-    clear: both;
-    color: #666;
-    text-align: left;
-    font-size: 12px;
+  border-top: solid 1px #eee;
+  padding: 10px 0 0 0;
+  margin: 25px 0 0 0;
+  clear: both;
+  color: #666;
+  text-align: left;
+  font-size: 12px;
 }
 
 .copyright a {
-    color: #666;
-    font-size: inherit;
+  color: #666;
+  font-size: inherit;
 }
 
 
 @media (max-width: 480px) {
-    .content {
-        padding: 2em 1em 0;
-    }
+  .content {
+    padding: 2em 1em 0;
+  }
 }
