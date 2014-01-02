@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2013 - Year in Review
-snippet: Oh yes there will, there will be a blog.
+snippet: So for a while now I have thought about writing a "Year in Review" post annually. As I am working on actively blogging again this year is the perfect year to start.
 author: { name: Simon Wood, email: hpoomdev@gmail.com }
 path: /posts/2013-year-in-review.html
 type: post
