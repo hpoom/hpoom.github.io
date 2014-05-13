@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+
+  <!-- Site Properities -->
+  <title> | hpoom</title>
+  <meta name="description" content="Passionate geek with a love of Javascript, APIs, and Cloud. I am Head of Technology &amp; Innovation at the Shortbreaks &amp; New Ventures division of Holiday Extras." />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  	<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/blog.css">
+
+    <script src="http://use.typekit.net/gis6vng.js"></script>
+    <script>
+        try { Typekit.load(); } catch (e) {}
+    </script>
+  
+  
+
+</head>
+
+<body>
+
+  <!--[if lt IE 7]>
+		<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+	<![endif]-->
+
+
+<div class="pure-g-r" id="layout">
+  <div class="sidebar pure-u">
+    <header class="header">
+      
+	<style>
+  .my-awesome-mugshot {
+    background: url(http://www.gravatar.com/avatar/cb062e6e886fa359c4c1d747f3919f28?s=120);
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;  
+    border-radius: 60px;
+  }
+</style>
+
+
+<hgroup>
+  <div class="my-awesome-mugshot"></div>
+  <h1 class="brand-title">hpoom</h1>
+  <h3 class="brand-tagline">Passionate geek with a love of Javascript, APIs, and Cloud. I am Head of Technology &amp; Innovation at the Shortbreaks &amp; New Ventures division of Holiday Extras.</h3>
+</hgroup>
+
+<div class="social-menu social-menu-horizontal">
+  <ul>
+    <li><a href="https://twitter.com/hpoom"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="http://www.linkedin.com/in/simonejwood"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="http://github.com/hpoom/"><i class="fa fa-github"></i></a></li>
+    <li><a href="https://foursquare.com/hpoom"><i class="fa fa-foursquare"></i></a></li>
+  </ul>
+</div>
+
+
+    </header>
+  </div>
+
+  <div class="pure-u-1">
+      <div class="content">
+        
+	<h2 class="post-title">Why do phones need sim cards?</h2>
+	<p class="post-meta">
+            By <a href="#" class="post-author">Simon Wood</a> under
+
+            
+				<a class="post-category post-category-design" href="#">phones</a>
+			
+				<a class="post-category post-category-design" href="#">sim</a>
+			
+				<a class="post-category post-category-design" href="#">solution</a>
+			
+    </p>
+	
+
+	<p>Your new phone has arrived and now your trying to figure out how to get the back cover off or open a tiny tray in order to put your <a href="http://en.wikipedia.org/wiki/Sim_card">sim card</a> into it. Or maybe your screaming out loud because you have a micro sim in your hand but your new phone takes a nano sim.</p>
+<p>The big question I keep thinking over and over in my head, is why do we still use sims? Has technology not moved far enough forward to provide us with a better solution to this problem?</p>
+<p>In order to propose a solution to the sim issue first we needed to look into what the sim does. Before we get too far I should state I am neither a telecoms expert or a hardware expert. I am just a phone user that has made an observation as to how crazy things are now, and wonders why has technology not fixed this yet.</p>
+<p>There are two mobile phone standards <a href="http://en.wikipedia.org/wiki/GSM">GSM</a> and <a href="http://en.wikipedia.org/wiki/CDMA">CDMA</a>. It is only GSM that uses sim cards, but CDMA is not the solution as it has it’s own issues. GSM is widely used by the whole world, where as CDMA is limited to just the US. Also CDMA limits the use of handsets on the network which prevents you from using second hand hardware or moving hardware from one network to another. Networks that support CDMA are also introducing sim cards to allow for 4G which requires sim authentication.</p>
+<p>The key functions of the sim card in the GSM setup is to authenticate the user to the network. In simple terms the sim card identifies itself to the network and the network checks in a database to see if the card is authorised to use the services on the network and which account to charge the services too. In the old days sims were also used to store address book and SMS messages, but that is not the case with smartphones which use internal memory or cloud storage to store this data. On a modern smart phone the address book is synced from cloud by a Google or Apple login.</p>
+<p>So why can’t we move to a login to replace the sim? Even if the infrastructure can not be changed and expects a sim, new phones could come with a writeable sim embedded in them instead of a removable sim slot. We could then authenticate with our phone network using a login similar to a Google or Apple login. One might even suggest OAuth 2.0 could be the solution here. Once authenticated with our network we could send our phone the details of our sim and these could be stored on the embedded inbuilt sim for future use. The only problem I envisage here is that this would have to be done over wifi when you first setup your phone. This would be an issue because you would not be able to connect to your networks masts until the embedded inbuilt sim has been updated. In the case where the user does not have wifi and an internet connection themselves this could be solved by them being setup in a shop run by their network where they would have wifi and an internet connection.</p>
+<p>The benefits I see to this are that users would not have to worry about the different sim sizes currently in use. Phone manufactures would find it easier to build water and dust proof phones as we would not need access to insert a sim anymore. Customers could switch between devices easier use multiple accounts/sims on one device. No more need for a dual sim phones if you want to have a separate work and personal phone number but only one phone. You could register two accounts on one hardware and have phone options to enable and disable the sims. Customers would also move away from devices being locked to one network. All devices would effectively be &quot;sim free”, although the networks might not like this. One final thought if your device was stolen you could remote wipe the sim just like how you can remote lock an Android phone if it is stolen.</p>
+<p>So is this a crazy idea? Could this work? Or would the networks not support this move and prevent innovation of an outdated sim model?</p>
+
+
+
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'hpoomblog'; // required: replace example with your forum shortname
+		var disqus_title = 'Why do phones need sim cards?';
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        
+	<footer class="footer">
+
+<div class="copyright">
+<p>
+	&copy; 2014 Simon Wood
+</p>
+<p>
+	<strong>Site generated with <a href="http://colynb.com/generator-go-static">Go-Static!</a></strong>
+</p>
+</div>
+
+</footer>
+
+      </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>
