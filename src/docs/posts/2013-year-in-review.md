@@ -5,7 +5,7 @@ snippet: So for a while now I have thought about writing a "Year in Review" post
 author: { name: Simon Wood, email: hpoomdev@gmail.com }
 path: /posts/2013-year-in-review.html
 type: post
-isPinned: true
+isPinned: false
 tags: ['year', 'review']
 created: '2013-12-31T20:36:24+00:00'
 ---
