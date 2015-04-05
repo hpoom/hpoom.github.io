@@ -9,7 +9,7 @@ node_modules/
 
 # Output folder #
 ######################
-out/
+build/
 
 # Tempory folder #
 ######################
@@ -17,4 +17,4 @@ out/
 
 # Logs #
 ######################
-*.log 
+*.log
