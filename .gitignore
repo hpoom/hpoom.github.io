@@ -7,7 +7,7 @@ thumbs.db
 ######################
 node_modules/
 
-# Output folder #
+# Build folder #
 ######################
 build/
 

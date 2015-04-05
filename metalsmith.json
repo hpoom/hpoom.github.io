@@ -1,8 +1,9 @@
 {
 	"metadata": {
-		"title": "My Blog",
+		"title": "hpoom",
 		"description": "My second, super-cool blog."
 	},
+	"destination": "build",
 	"plugins": {
 		"metalsmith-markdown": {},
 		"metalsmith-permalinks": {
