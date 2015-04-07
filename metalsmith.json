@@ -7,7 +7,7 @@
 	"plugins": {
 		"metalsmith-markdown": {},
 		"metalsmith-permalinks": {
-			"pattern": ":title"
+			"pattern": "posts/:title"
 		},
 		"metalsmith-templates": {
 			"engine": "handlebars"
